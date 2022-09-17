@@ -1,0 +1,11 @@
+.menu-item.selected .menu-item-content {
+  @apply bg-blue-500
+}
+
+.menu-item.selected .menu-item-content:hover {
+  @apply bg-blue-600
+}
+
+.menu-item .menu-item-content:hover {
+  @apply bg-blue-100
+}

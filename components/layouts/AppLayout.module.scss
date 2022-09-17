@@ -1,0 +1,12 @@
+.tabs-bar ul > li > div:nth-child(2) {
+  background-color: rgba(21, 94, 117, 1);
+}
+
+.tabs-bar > div {
+  color: black;
+}
+
+.tabs-bar .selected > div {
+  transition: color 1s ease;
+  color: white;
+}
